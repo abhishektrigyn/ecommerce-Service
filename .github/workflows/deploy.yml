@@ -1,4 +1,4 @@
-name: Java CI/CD with Docker
+name: Java CI/CD with Docker 4
 
 on:
   push:
