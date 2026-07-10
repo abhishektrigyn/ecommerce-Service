@@ -18,3 +18,4 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Analyze with SonarCloud
