@@ -1,8 +1,10 @@
 server:
-  port:  ${SERVER_PORT:8080}
+  port: ${SERVER_PORT:8080}
+
 spring:
   application:
     name: ecommerce-Service
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -10,5 +12,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+
   profiles:
     active: prod
+
+instance:
+  id: ${INSTANCE_ID:UNKNOWN}
